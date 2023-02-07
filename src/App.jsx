@@ -44,6 +44,7 @@ const disableButton = () => {
 const filtraColaborador = (nombre) => {
   const listaFiltrada = listaColaboradores.filter(el => el.nombre === nombre)
   setListaColaboradores(listaFiltrada)
+  setFiltro("")
 }
 
   const capturaFilter = (e) => {
