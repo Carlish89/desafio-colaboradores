@@ -51,14 +51,8 @@ function App() {
       return item.nombre.toLowerCase().indexOf(query.toLowerCase()) !== -1;
     });
     setListaColaboradores(nuevaLista);
+    
   };
-
-
-
-
-
-
-
   return (
     <div className="App">
       <h1 className="text-light">Desafio Colaboradores</h1>
